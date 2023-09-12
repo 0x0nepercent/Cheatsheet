@@ -8,6 +8,7 @@ $ python -c 'import pty; pty.spawn("/bin/bash")'
 Ctrl-Z
 
 # In Kali
+$ stty -a
 $ stty raw -echo
 $ fg
 
