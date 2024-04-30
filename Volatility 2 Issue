@@ -1,0 +1,10 @@
+Hi, I just found the solution yesterday. So try to run this in the terminal
+
+1. pip install --upgrade setuptools
+2. sudo apt-get install python2-dev
+3. pip2 install pycrypto && pip install distorm3
+I you're already done with the crypto.hash, then on the line 3, try to run the pip2 install distorm3. But if your pip2 giving you output error: invalid command 'egg_info'. Then try to download the pip2 using this
+
+1. curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output /tmp/get-pip.py
+2. sudo python2 /tmp/get-pip.py
+After that try to re-run the first 3 command to install pycrypto and distorm3
